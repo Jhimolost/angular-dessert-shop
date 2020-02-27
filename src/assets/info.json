@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Брауни",
+        "photo": "1.jpg",
+        "price":"12",
+        "about": "Description",
+        "quantity":1
+    },
+    {
+        "id": 2,
+        "name": "Шоколадный фондан",
+        "photo": "2.jpg",
+        "price":"15",
+        "about": "Description",
+        "quantity":1
+    },
+    {
+        "id": 3,
+        "name": "Творожная запеканка",
+        "photo": "3.jpg",
+        "price":"10",
+        "about": "Description",
+        "quantity":1
+    },
+    {
+        "id": 4,
+        "name": "Пирог с мясом",
+        "photo": "4.jpg",
+        "price":"18",
+        "about": "Description",
+        "quantity":1
+    },
+    {
+        "id": 5,
+        "name": "Макарунс",
+        "photo": "5.jpg",
+        "price":"12",
+        "about": "Description",
+        "quantity":1
+    },
+    {
+        "id": 6,
+        "name": "Чизкейк",
+        "photo": "6.jpg",
+        "price":"14",
+        "about": "Description",
+        "quantity":1
+    }
+]

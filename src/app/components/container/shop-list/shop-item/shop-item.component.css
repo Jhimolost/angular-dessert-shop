@@ -1,0 +1,36 @@
+.about{
+    margin: 3%;
+}
+
+.product-title{
+	font-size: 20px;
+}
+
+.product-desc{
+	font-size: 14px;
+}
+.product-table{
+	font-size: 16px;
+	
+	margin-top:4%;
+}
+:host /deep/ tr,th {
+font-size: 15px;
+	}
+	:host /deep/ table{
+		margin-top:4%;
+		margin-bottom:4%;
+	}
+.product-price{
+	font-size: 22px;
+}
+
+.product-stock{
+	color: #74DF00;
+	font-size: 20px;
+	margin-top: 10px;
+}
+
+.product-info{
+		margin-top: 50px;
+}

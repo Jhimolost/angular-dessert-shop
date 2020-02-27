@@ -1,0 +1,38 @@
+<app-header collapseHeader="true"></app-header>
+<div class="container">
+    <div class="col-xs-12 col-md-6" *ngFor="let item of info">
+        <!-- First product box start here-->
+        <div class="prod-info-main prod-wrap" >
+            <div class="row">
+                    <div class="col-md-5 col-sm-12 col-xs-12">
+                        <div class="product-image"> 
+                            <img src="../../../assets/{{item.photo}}" class="img-responsive"> 
+                        </div>
+                    </div>
+                    <div class="col-md-7 col-sm-12 col-xs-12">
+                    <div class="product-deatil">
+                            <h5 class="name">
+                                    {{item.name}}
+                            </h5>
+                            <p class="price-container">
+                                <span>$ {{item.price}}</span>
+                            </p>
+                    </div>
+                    <div class="description">
+                        <p><span>{{item.about}}</span></p>
+                    </div>
+                    <div class="product-info smart-form">
+                        <div class="row">
+                            <div class="col-md-12"> 
+                                <a (click)="addToCart(item.id)" class="btn btn-danger">Add to cart</a>
+                                <a [routerLink]="['/product-details', item.id]" class="btn btn-info">More info</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end product -->
+    </div>
+
+    </div>

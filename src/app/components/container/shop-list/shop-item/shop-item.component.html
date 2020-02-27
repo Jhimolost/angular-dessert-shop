@@ -1,0 +1,29 @@
+<app-header collapseHeader="true"></app-header>
+<section class="about">
+        <div class="col-md-6 col-xs-12 no-pad">
+          <div class="bg-about">
+            <img src="../../../../assets/{{product.photo}}" class="img-responsive">
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12 col-xs-12 white-col">
+          <div class="row">
+                <div class="col-md-12">
+                        <div class="wrap-about">
+                          <div class="product-title">{{product.name}}</div>
+                          <div class="product-desc">{{product.about}}</div>
+                          <hr>
+                          <div class="product-price">$ {{product.price}}</div>
+                          <div class="product-stock">In Stock</div>
+                          <hr>
+                          <div class="btn-group cart">
+                            <button type="button" class="btn btn-success" (click)="addToCart(product.id)">
+                              Add to cart 
+                            </button>
+                          </div>
+                          <div class="product-table">Ингридиенты</div>
+                         <ng2-smart-table [settings]="settings" [source]="info"></ng2-smart-table>
+                        </div>
+                      </div>
+          </div>
+        </div>
+      </section>

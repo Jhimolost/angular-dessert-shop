@@ -1,0 +1,27 @@
+agm-map {
+    height: 400px;
+  }
+  .wrap-about {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: block;
+    min-height: 480px;
+    
+  }
+
+  .wrap-about .w-content{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%); 
+  }
+  p {
+    letter-spacing: 0.5px;
+    font-size: 15px;
+    line-height: 34px;
+    font-weight: 300;
+  }

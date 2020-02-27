@@ -1,0 +1,27 @@
+<app-header collapseHeader='true'></app-header>
+<section class="about">
+        <div class="col-md-6 col-xs-12 no-pad">
+          <div class="bg-about">
+                <agm-map [latitude]="lat" [longitude]="lng" [zoom]=15>
+                        <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+                 </agm-map>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12 col-xs-12 white-col">
+          <div class="row">
+                <div class="col-md-12">
+                        <div class="wrap-about">
+                          <div class="w-content">
+                            <p class="head-about">
+                                    Онлайн магазин выпечки А.М. предоставляет широкий ассортимент хлебобулочных изделий на любой вкус!
+                                    Наш магазин вы можете найти по адресу: <b>проспект Науки 14</b>
+                            </p>
+                           
+                          </div>
+                        </div>
+                      </div>
+     
+          </div>
+        </div>
+      </section>
+<app-footer></app-footer>
